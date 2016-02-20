@@ -1,0 +1,21 @@
+draw_set_color(c_black)
+draw_set_font(fnt_fnt)
+draw_text(4,0,'FPS:')
+draw_text(44,0,fps)
+draw_text(62,0,'/30')
+draw_text(4,30,'Slide ID:')
+draw_text(65,30,global.slide_id)
+draw_text(4,50,'Drop Down:')
+if global.s_info=1
+{
+draw_text(90,50,'True')
+}
+else
+{
+draw_text(90,50,'False')
+}
+draw_text(840,650,'Mouse Location (x,y):')
+draw_text(853,670,mouse_x)
+draw_text(890,670,',')
+draw_text(895,670,mouse_y)
+

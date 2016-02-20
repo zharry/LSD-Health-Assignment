@@ -1,0 +1,82 @@
+draw_set_color(c_black)
+
+if global.slide_id=0
+{
+    draw_set_font(fnt_slide1_1)
+    draw_text(390,230,'Name of the Drug:')
+    draw_set_font(fnt_slide1_2)
+    draw_text(375,490,'LSD 
+    (Lyseric acid diethylamide)')
+}
+if global.slide_id=1
+{
+    draw_set_font(fnt_slide2_1)
+    draw_text(400,100,'Short Term Effects:')
+    draw_set_font(fnt_slide2_2)
+    draw_text(510,290,'- Weird Body Effects
+- Loss of Life
+- No control of brain
+- Weakness')
+}
+if global.slide_id=2
+{
+    draw_set_font(fnt_slide3_1)
+    draw_text(480,150,'Long Term Effects')
+    draw_set_font(fnt_slide3_2)
+    draw_text(510,300,'- Psychosis
+- Depression
+- Paramoid
+- Flashbacks')
+}
+if global.slide_id=3
+{
+draw_set_font(fnt_slide4_1)
+draw_text(450,100,'Cost')
+draw_set_font(fnt_slide4_2)
+draw_text(300,400,'- 5-10 dollars for a "hit"
+- Sold in packages of:
+    - Paper Blotter (stickers)
+    - Microdots
+    - Geltabs
+    - Liqiud Bottles')
+}
+if global.slide_id=4
+{
+draw_set_font(fnt_slide5_1)
+draw_text(380,300,'Comes From:')
+draw_set_font(fnt_slide5_2)
+draw_text(50,500,'LSD was first synthesized by the Swiss chemist
+Albert Hofmann in the Sandoz (now Novartis)
+laboratories in Basel, Switzerland on')
+draw_text(300,625,'November 16, 1938.')
+}
+if global.slide_id=5
+{
+draw_set_font(fnt_slide6_1)
+draw_text(390,120,'Street names')
+draw_text(400,220,'- Acid
+- Blotter
+- Microdot
+- Yellow Sunshine
+- Golden Dragon
+- Superman
+- Loony Toons')
+}
+if global.slide_id=6
+{
+draw_set_font(fnt_slide7_1)
+draw_text(370,575,'Three types of LSD.')
+}
+if global.slide_id=7
+{
+draw_set_font(fnt_slide89)
+draw_text(270,150,'Getting Help')
+draw_text(250,300,'- Behavior modification
+- Counseling')
+}
+if global.slide_id=8
+{
+draw_set_font(fnt_slide89)
+draw_text(440,100,'Influence')
+//No Text for Slide 8, all located inside the Drop-Down!
+}

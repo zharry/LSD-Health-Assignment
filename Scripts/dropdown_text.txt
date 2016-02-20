@@ -1,0 +1,131 @@
+draw_set_color(c_white)
+
+if global.s_info=1
+{
+if global.slide_id=0
+{
+draw_text(140,90,'   LSD
+Lyseric acid diethylamide Pronounced:
+Luh-sur-jik, a-sud, dye-eh-thuh-lah-myde
+
+LSD is a Hallucinogen.
+Hallucinogen means to cause you to hallecinate.
+When you are Haullecinating it is like,
+An experience involving the apearance of something not present.
+
+LSD is not addictive. People just enjoy it.
+')
+}
+if global.slide_id=1
+{
+draw_set_font(fnt_slide2_3)
+draw_text(220,10,'Short Term Effects:
+- Weird Body Effects
+  - Increased Blood preasure
+  - Dilated Pupils
+  - Dizziness, Nausea, Chills
+  - Weakness
+- Loss of Life
+  - Weird Sence of Gravity
+  - Fear of
+    - Lossing Control
+    - Insanity
+    - Death
+  - Weird Thoughts/Feelings
+  - Loss of apetite
+- No control of brain
+  - Mood Swings
+  - Concentration Problems
+  - Impared judgement
+  - Short-term memory
+  - Blending Memories
+  -No Coordination')
+}
+if global.slide_id=2
+{
+draw_set_font(fnt_slide3_3)
+draw_text(240,90,'Long Term Effects
+
+Flashbacks are an LSD "trip"
+experianced after the drug 
+and its affect is worn off,
+usually cleared up after 12 hours 
+but for some people the expreiance
+of the "trip" may lasts with them forever.')
+}
+if global.slide_id=3
+{
+draw_set_font(fnt_slide7_1)
+draw_text(260,90,'What is a "hit" of LSD?
+
+A "hit" is usually 1 pill or one
+square of the perforated paper.')
+}
+if global.slide_id=4
+{
+draw_set_font(fnt_slide5_3)
+draw_text(160,90,'How do you make LSD?
+
+To make LSD is you grow a fungus called
+ergot, which is naturally occurring on 
+rye grain. Then extract and isolate lysergic
+acid amide from the fungus.
+')
+}
+if global.slide_id=5
+{
+draw_set_font(fnt_slide6_2)
+draw_text(280,50,'Full List of Street Names:
+Acid         Battery Acid
+Blotter      Boomers
+California Sunshine
+Cid          Does     Dots
+Golden Dragon         Tab
+Heavenly Blue         Zen
+Hippie       Pane     Microdot
+Loony Toons           Window Pane
+Lucy in the sky with diamonds
+Purple Heart          Superman
+Yellow Sunshine
+')
+}
+if global.slide_id=6
+{
+draw_set_font(fnt_slide7_1)
+draw_text(160,50,'How to take LSD:
+
+- Painted on a peice of paper to lick or swallow.
+- In liquid form to drink.
+- In solid form as a Mircodot to lick or swallow.
+- LSD is oderless, colorless, and tasteless.')
+}
+if global.slide_id=7
+{
+draw_set_font(fnt_fnt1)
+draw_text(150,90,'Getting Help:
+
+Behavior modification:
+Because people use LSD as a escape, LSD use is replaced by 
+spending more time elsewere na doing diffrent stuff to relax.
+
+Counseling:
+Counseling may be necessary in the treatment of LSD abuse 
+in order to help overcome the depression and learn to deal 
+with life without the aid of LSD.')
+}
+if global.slide_id=8
+{
+draw_set_font(fnt_slide9_1)
+draw_text(160,20,'The Facts:
+
+- 22.8%% of 12th Graders belive their friends would 
+not care or approve of taking LSD.
+
+- Half of all children will try drugs before they 
+get out of high school.
+
+- Two-thirds of people hooked on LSD
+say that they were abused as children. Child abuse 
+is a major contributing  factor to LSD addiction.')
+}
+}

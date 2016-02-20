@@ -1,0 +1,5 @@
+global.slide_id=0
+global.info_show=0
+global.s_info=0
+global.pic_1=0
+//sound_loop(snd_music)
